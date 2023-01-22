@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
-class Poster1 extends StatefulWidget {
-  const Poster1({Key? key}) : super(key: key);
+class Movie2 extends StatefulWidget {
+  const Movie2({Key? key}) : super(key: key);
 
   @override
-  State<Poster1> createState() => _Poster1State();
+  State<Movie2> createState() => _Movie2State();
 }
 
-class _Poster1State extends State<Poster1> {
+class _Movie2State extends State<Movie2> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -34,9 +34,7 @@ class _Poster1State extends State<Poster1> {
                           //color: Colors.red,
                           decoration: BoxDecoration(
                             image: DecorationImage(
-                              image: NetworkImage(
-                                  "https://upload.wikimedia.org/wikipedia/commons/8/86/Titanic_Poster.jpg"),
-                              fit: BoxFit.cover,
+                                image: AssetImage("assets/Movie2.png")
                             ),
                           ),
                         ),
@@ -44,7 +42,7 @@ class _Poster1State extends State<Poster1> {
                           padding: const EdgeInsets.only(top: 25.0, left: 10.0),
                           child: Column(
                             children: [
-                              Text("Titanic\n\nShort bio\n\n20 dec. 2022"),
+                              Text("Doctor Strange\n\nMARVEL STUDIOS\n\nNov 4, 2016"),
                             ],
                           ),
                         ),
@@ -65,7 +63,7 @@ class _Poster1State extends State<Poster1> {
                           ),
                           child: Padding(
                             padding:
-                                const EdgeInsets.only(left: 20.0, right: 20.0),
+                            const EdgeInsets.only(left: 20.0, right: 20.0),
                             child: Row(
                               mainAxisAlignment: MainAxisAlignment.spaceBetween,
                               children: [
@@ -116,7 +114,8 @@ class _Poster1State extends State<Poster1> {
                             child: Padding(
                               padding: const EdgeInsets.only(right: 5.0, left: 5.0),
                               child: Text(
-                                  "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+                                  "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+                                      "\n\nIt has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
                                       "\n\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
                               ),
                             ),
