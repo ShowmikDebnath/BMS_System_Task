@@ -1,5 +1,15 @@
 import 'package:bms_system/Screens/MoviesDetails/Movie1.dart';
+import 'package:bms_system/Screens/MoviesDetails/Movie10.dart';
+import 'package:bms_system/Screens/MoviesDetails/Movie11.dart';
+import 'package:bms_system/Screens/MoviesDetails/Movie12.dart';
 import 'package:bms_system/Screens/MoviesDetails/Movie2.dart';
+import 'package:bms_system/Screens/MoviesDetails/Movie3.dart';
+import 'package:bms_system/Screens/MoviesDetails/Movie4.dart';
+import 'package:bms_system/Screens/MoviesDetails/Movie5.dart';
+import 'package:bms_system/Screens/MoviesDetails/Movie6.dart';
+import 'package:bms_system/Screens/MoviesDetails/Movie7.dart';
+import 'package:bms_system/Screens/MoviesDetails/Movie8.dart';
+import 'package:bms_system/Screens/MoviesDetails/Movie9.dart';
 import 'package:bms_system/Screens/poster1.dart';
 import 'package:flutter/material.dart';
 
@@ -104,7 +114,7 @@ class _posterScreenState extends State<posterScreen> {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => Poster1(),
+                              builder: (context) => Movies3(),
                             )
                         );
                       },
@@ -182,7 +192,7 @@ class _posterScreenState extends State<posterScreen> {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => Poster1(),
+                              builder: (context) => Movies3(),
                             )
                         );
                       },
@@ -213,7 +223,7 @@ class _posterScreenState extends State<posterScreen> {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => Poster1(),
+                              builder: (context) => Movies4(),
                             )
                         );
                       },
@@ -238,7 +248,7 @@ class _posterScreenState extends State<posterScreen> {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => Poster1(),
+                              builder: (context) => Movie5(),
                             )
                         );
                       },
@@ -262,7 +272,7 @@ class _posterScreenState extends State<posterScreen> {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => Poster1(),
+                              builder: (context) => Movie6(),
                             )
                         );
                       },
@@ -289,7 +299,7 @@ class _posterScreenState extends State<posterScreen> {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => Poster1(),
+                              builder: (context) => Movies4(),
                             )
                         );
                       },
@@ -315,7 +325,7 @@ class _posterScreenState extends State<posterScreen> {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => Poster1(),
+                              builder: (context) => Movie5(),
                             )
                         );
                       },
@@ -340,7 +350,7 @@ class _posterScreenState extends State<posterScreen> {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => Poster1(),
+                              builder: (context) => Movie6(),
                             )
                         );
                       },
@@ -371,7 +381,7 @@ class _posterScreenState extends State<posterScreen> {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => Poster1(),
+                              builder: (context) => Movie7(),
                             )
                         );
                       },
@@ -396,7 +406,7 @@ class _posterScreenState extends State<posterScreen> {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => Poster1(),
+                              builder: (context) => Movie8(),
                             )
                         );
                       },
@@ -420,7 +430,7 @@ class _posterScreenState extends State<posterScreen> {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => Poster1(),
+                              builder: (context) => Movie9(),
                             )
                         );
                       },
@@ -447,7 +457,7 @@ class _posterScreenState extends State<posterScreen> {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => Poster1(),
+                              builder: (context) => Movie7(),
                             )
                         );
                       },
@@ -473,7 +483,7 @@ class _posterScreenState extends State<posterScreen> {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => Poster1(),
+                              builder: (context) => Movie8(),
                             )
                         );
                       },
@@ -498,7 +508,7 @@ class _posterScreenState extends State<posterScreen> {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => Poster1(),
+                              builder: (context) => Movie9(),
                             )
                         );
                       },
@@ -528,7 +538,7 @@ class _posterScreenState extends State<posterScreen> {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => Poster1(),
+                              builder: (context) => Movie10(),
                             )
                         );
                       },
@@ -553,7 +563,7 @@ class _posterScreenState extends State<posterScreen> {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => Poster1(),
+                              builder: (context) => Movie11(),
                             )
                         );
                       },
@@ -577,7 +587,7 @@ class _posterScreenState extends State<posterScreen> {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => Poster1(),
+                              builder: (context) => Movie12(),
                             )
                         );
                       },
@@ -604,7 +614,7 @@ class _posterScreenState extends State<posterScreen> {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => Poster1(),
+                              builder: (context) => Movie10(),
                             )
                         );
                       },
@@ -630,7 +640,7 @@ class _posterScreenState extends State<posterScreen> {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => Poster1(),
+                              builder: (context) => Movie11(),
                             )
                         );
                       },
@@ -655,7 +665,7 @@ class _posterScreenState extends State<posterScreen> {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => Poster1(),
+                              builder: (context) => Movie12(),
                             )
                         );
                       },

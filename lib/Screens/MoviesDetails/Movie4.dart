@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
-class Movies3 extends StatefulWidget {
-  const Movies3({Key? key}) : super(key: key);
+class Movies4 extends StatefulWidget {
+  const Movies4({Key? key}) : super(key: key);
 
   @override
-  State<Movies3> createState() => _Movies3State();
+  State<Movies4> createState() => _Movies4State();
 }
 
-class _Movies3State extends State<Movies3> {
+class _Movies4State extends State<Movies4> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -34,7 +34,7 @@ class _Movies3State extends State<Movies3> {
                           //color: Colors.red,
                           decoration: BoxDecoration(
                             image: DecorationImage(
-                                image: AssetImage("assets/Movie3.png")
+                                image: AssetImage("assets/Movie4.png")
                             ),
                           ),
                         ),
@@ -42,7 +42,7 @@ class _Movies3State extends State<Movies3> {
                           padding: const EdgeInsets.only(top: 25.0, left: 10.0),
                           child: Column(
                             children: [
-                              Text("Guardians of the Galaxy Vol.\n\nMARVEL STUDIOS\n\nMay 5, 2016"),
+                              Text("Spider-Man: Homecoming\n\nMARVEL STUDIOS\n\nJul 7, 2017"),
                             ],
                           ),
                         ),
