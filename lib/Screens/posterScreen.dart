@@ -12,6 +12,7 @@ import 'package:bms_system/Screens/MoviesDetails/Movie8.dart';
 import 'package:bms_system/Screens/MoviesDetails/Movie9.dart';
 import 'package:bms_system/Screens/poster1.dart';
 import 'package:flutter/material.dart';
+import 'package:google_sign_in/google_sign_in.dart';
 
 class posterScreen extends StatefulWidget {
   const posterScreen({Key? key}) : super(key: key);
@@ -23,8 +24,14 @@ class posterScreen extends StatefulWidget {
 class _posterScreenState extends State<posterScreen> {
   @override
   Widget build(BuildContext context) {
+
+    Future<void> logout() async{
+      final GoogleSignIn googleSignIn = GoogleSignIn();
+      await googleSignIn.signOut();
+    }
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.black,
         title: Center(
           child: Text(
             'SOME MARVEL MOVIE LIST',
@@ -33,11 +40,26 @@ class _posterScreenState extends State<posterScreen> {
             ),
           ),
         ),
+        actions: <Widget>[
+          Padding(
+              padding: EdgeInsets.only(right: 20.0),
+              child: GestureDetector(
+                onTap: () async{
+                  logout();
+                  Navigator.pop(context);
+                },
+                child: Icon(
+                    Icons.grid_view_rounded,
+                  color: Colors.white.withOpacity(0.4),
+                ),
+              )
+          ),
+        ],
       ),
       body: Container(
         height: MediaQuery.of(context).size.height,
         width: MediaQuery.of(context).size.width,
-        color: Colors.grey,
+        //color: Colors.grey,
 
         child: Padding(
           padding: const EdgeInsets.all(12.0),
