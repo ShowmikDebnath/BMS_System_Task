@@ -10,7 +10,7 @@ import 'package:bms_system/Screens/MoviesDetails/Movie6.dart';
 import 'package:bms_system/Screens/MoviesDetails/Movie7.dart';
 import 'package:bms_system/Screens/MoviesDetails/Movie8.dart';
 import 'package:bms_system/Screens/MoviesDetails/Movie9.dart';
-import 'package:bms_system/Screens/poster1.dart';
+//import 'package:bms_system/Screens/poster1.dart';
 import 'package:flutter/material.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 
